@@ -49,6 +49,9 @@ void Matakuliah::TampilMK() {
 int main()
 {
 	Mahasiswa mhs;
-	Matakuliah mk;
+	Matakuliah mK;
+
+	mhs.inputdata();
+	mhs.tampildata();
 }
 
