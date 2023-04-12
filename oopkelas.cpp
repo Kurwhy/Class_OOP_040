@@ -40,3 +40,8 @@ void Matakuliah::InputMk() {
 	cin >> sks;
 }
 
+void Matakuliah::TampilMK() {
+	cout << "\nKode Mata Kuliah : " << kode << endl;
+
+}
+
