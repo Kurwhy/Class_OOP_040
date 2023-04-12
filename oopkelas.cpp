@@ -19,3 +19,11 @@ public:
 	}
 };
 
+class Matakuliah {
+
+private:
+	string kode;
+	string namaMk;
+	int sks;
+};
+
