@@ -20,10 +20,14 @@ public:
 };
 
 class Matakuliah {
-
 private:
 	string kode;
 	string namaMk;
 	int sks;
+
+public:
+	void InputMk();
+	void TampilMK();
+
 };
 
