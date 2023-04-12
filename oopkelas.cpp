@@ -22,7 +22,7 @@ public:
 class Matakuliah {
 private:
 	string kode;
-	string namaMk;
+	string namamK;
 	int sks;
 
 public:
@@ -30,4 +30,13 @@ public:
 	void TampilMK();
 
 };
+
+void Matakuliah::InputMk() {
+	cout << "\nMasukkan Kode Mata Kuliah : ";
+	cin >> kode;
+	cout << "Masukkan Nama Mata Kuliah : ";
+	cin >> namamK;
+	cout << "Masukkan Sks Mata Kuliah : ";
+	cin >> sks;
+}
 
