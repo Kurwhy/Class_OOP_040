@@ -53,5 +53,9 @@ int main()
 
 	mhs.inputdata();
 	mhs.tampildata();
+
+	mK.InputMk();
+	mK.TampilMK();
+
 }
 
